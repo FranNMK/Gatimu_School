@@ -1,0 +1,93 @@
+{% extends 'website/base.html' %}
+
+{% block title %}Contact Us - Gatimu School{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row align-items-center">
+        <!-- Contact Info -->
+        <div class="col-lg-5 mb-5 mb-lg-0">
+            <h1 class="fw-bold text-primary mb-4">Get in Touch</h1>
+            <p class="mb-4">We are here to answer any questions you may have about Gatimu School.</p>
+
+            <div class="d-flex mb-4">
+                <div class="flex-shrink-0">
+                    <div class="bg-light p-3 rounded-circle text-primary border border-primary">
+                        📞
+                    </div>
+                </div>
+                <div class="ms-3">
+                    <h5 class="fw-bold text-primary">Phone</h5>
+                    <p class="mb-0">+123 456 7890</p>
+                </div>
+            </div>
+
+            <div class="d-flex mb-4">
+                <div class="flex-shrink-0">
+                    <div class="bg-light p-3 rounded-circle text-primary border border-primary">
+                        📧
+                    </div>
+                </div>
+                <div class="ms-3">
+                    <h5 class="fw-bold text-primary">Email</h5>
+                    <p class="mb-0">contact@gatimuschool.edu</p>
+                </div>
+            </div>
+
+            <div class="d-flex mb-4">
+                <div class="flex-shrink-0">
+                    <div class="bg-light p-3 rounded-circle text-primary border border-primary">
+                        🏢
+                    </div>
+                </div>
+                <div class="ms-3">
+                    <h5 class="fw-bold text-primary">Visit Us</h5>
+                    <p class="mb-0">Gatimu School Campus<br>123 Education Lane</p>
+                </div>
+            </div>
+
+            <div class="card border-primary mb-3">
+                <div class="card-body text-primary">
+                    <h5 class="card-title fw-bold">🕒 Office Hours</h5>
+                    <p class="card-text">Monday – Friday: 8:00am – 5:00pm</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-6 offset-lg-1">
+            <div class="card shadow-lg border-0">
+                <div class="card-body p-5">
+                    <h3 class="mb-4 text-center fw-bold">Send us a Message</h3>
+
+                    {% if messages %}
+                    {% for message in messages %}
+                    <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+                        {{ message }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+
+                    <form method="post">
+                        {% csrf_token %}
+                        <div class="mb-3">
+                            <label for="{{ form.name.id_for_label }}" class="form-label">Full Name</label>
+                            {{ form.name }}
+                        </div>
+                        <div class="mb-3">
+                            <label for="{{ form.email.id_for_label }}" class="form-label">Email Address</label>
+                            {{ form.email }}
+                        </div>
+                        <div class="mb-3">
+                            <label for="{{ form.message.id_for_label }}" class="form-label">Message</label>
+                            {{ form.message }}
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 py-2 fw-bold">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

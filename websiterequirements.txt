@@ -1,0 +1,152 @@
+GATIMU SCHOOL OFFICIAL WEBSITE CONTENT REQUIREMENTS
+Project: Gatimu School Website
+Purpose: Provide an official online presence for Gatimu School
+
+------------------------------------
+SCHOOL NAME:
+Gatimu School
+
+------------------------------------
+PRIMARY COLOR THEME (School-Friendly):
+Main Color: #1E3A8A  (Deep Royal Blue – education, trust, discipline)
+Secondary Color: #FBBF24 (Gold – excellence, success)
+Accent / Buttons: #2563EB (Bright Blue)
+Background: #F3F4F6 (Soft Light Grey)
+Text: #111827 (Dark Grey / Near Black)
+
+These colors should look:
+✓ Professional
+✓ Respectable
+✓ Calm
+✓ Suitable for a learning environment
+
+------------------------------------
+NAVIGATION TABS & CONTENT
+
+1. HOME
+Purpose:
+Welcome visitors and introduce Gatimu School.
+
+Sections:
+• Hero Banner
+  - Title: "Welcome to Gatimu School"
+  - Motto or inspirational statement
+  - Background image of the school
+
+• Image Carousel
+  - School compound photos
+  - Learning environment
+  - Activities
+  - Facilities
+
+• Short Welcome Message
+  Tone:
+   - Warm
+   - Respectful
+   - Focused on education, discipline & growth
+
+• Key Highlights
+  - Quality teaching
+  - Student development
+  - Discipline & values
+  - Community impact
+
+• Quick Buttons
+  - Learn More
+  - Contact Us
+  - (Portal Coming Soon)
+
+------------------------------------
+2. ABOUT
+Purpose:
+Share information about Gatimu School.
+
+Sections:
+• School Overview
+  Include:
+  - Type of school
+  - Location
+  - Brief background
+
+• Vision Statement
+• Mission Statement
+• School Values
+  Examples:
+  - Discipline
+  - Excellence
+  - Respect
+  - Integrity
+  - Hard Work
+
+• Message from the Administration
+  (Short friendly statement)
+
+• Why Choose Gatimu School?
+  - Strong discipline
+  - Supportive environment
+  - Strong academics
+  - Character building
+
+------------------------------------
+3. GALLERY
+Purpose:
+Showcase school life visually.
+
+Content:
+• Photo collection including:
+  - School buildings
+  - Classrooms
+  - Learning in action
+  - Co-curricular activities
+  - School events
+
+Notes:
+• Use clear, appropriate photos
+• Avoid exposing sensitive personal details
+
+------------------------------------
+4. CONTACT
+Purpose:
+Allow parents, students & visitors to reach the school.
+
+Sections:
+• Contact Information
+  - Phone Number
+  - Email Address
+  - Location / Address
+
+• Office Hours
+  Example:
+  Monday–Friday: 8:00am – 5:00pm
+
+• Optional:
+  - Simple enquiry message (future contact form)
+  - Map embed later
+
+------------------------------------
+5. PORTAL LOGIN (COMING LATER)
+Purpose:
+Future digital student information system.
+
+Temporary Text:
+“The Gatimu School Online Student Portal is under development. Soon, students and administrators will be able to securely access academic records and school services through this platform. Please check back later.”
+
+(No login form yet)
+
+------------------------------------
+GENERAL WEBSITE STYLE
+• Clean and simple layout
+• Easy to navigate
+• Mobile friendly
+• Respectful and professional tone
+• Suitable for parents, students & visitors
+
+Recommended Fonts:
+Headings: Poppins / Montserrat
+Body Text: Open Sans / Roboto
+
+Tone of Language:
+Calm, respectful, encouraging, educational
+
+------------------------------------
+END OF FILE

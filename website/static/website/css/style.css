@@ -1,0 +1,147 @@
+/* Gatimu School Official Styles */
+
+    --primary-color: #002147; /* Dark Blue */
+    --secondary-color: #10B981; /* Green */
+    --accent-color: #3B82F6; /* Light Blue */
+    --background-color: #F3F4F6; /* Soft Light Grey */
+    --text-color: #111827; /* Dark Grey / Near Black */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', 'Montserrat', sans-serif;
+    color: var(--primary-color);
+}
+
+.navbar {
+    background-color: var(--primary-color) !important;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: var(--secondary-color) !important;
+}
+
+.btn-primary {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #059669; /* Darker Green */
+    border-color: #059669;
+    color: white;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    margin-top: auto;
+    padding: 20px 0;
+}
+
+.hero-section {
+    background-color: #e5e7eb; /* Placeholder for image */
+    padding: 60px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--secondary-color);
+    margin: 10px auto 0;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+/* Bootstrap Overrides to enforce Brand Colors */
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.btn-primary:hover {
+    background-color: #00152e !important; /* Darker shade of Dark Blue */
+    border-color: #00152e !important;
+}
+
+/* Mapping 'Warning' (Gold) to Secondary (Green) if that's what was intended, 
+   OR just creating specific overrides. 
+   User wants D.Blue, Green, L.Blue. 
+   Let's map our Secondary (Green) to commonly used classes or just create new ones.
+*/
+
+.bg-secondary {
+    background-color: var(--secondary-color) !important; /* Green */
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}
+
+/* Override bg-warning labels to Green (Secondary) since we want to remove Gold */
+.bg-warning {
+    background-color: var(--secondary-color) !important; /* Green */
+    color: white !important; /* Text needs to be white on dark green */
+}
+
+.text-warning {
+    color: var(--secondary-color) !important;
+}
+
+/* Custom Accent Class */
+.bg-accent {
+    background-color: var(--accent-color) !important; /* Light Blue */
+}
+
+.text-accent {
+    color: var(--accent-color) !important;
+}
+

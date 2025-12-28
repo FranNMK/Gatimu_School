@@ -1,0 +1,26 @@
+{% extends 'website/base.html' %}
+
+{% block title %}Student Portal - Gatimu School{% endblock %}
+
+{% block content %}
+<div class="container d-flex flex-column align-items-center justify-content-center text-center py-5"
+    style="min-height: 70vh;">
+    <div class="mb-4">
+        <span class="display-1">🔒</span>
+    </div>
+    <h1 class="display-5 fw-bold text-primary mb-3">Portal Login</h1>
+    <h2 class="h4 text-warning mb-4 fw-bold">COMING SOON</h2>
+
+    <div class="card border-0 bg-light p-4 shadow-sm" style="max-width: 600px;">
+        <p class="lead mb-0 text-secondary">
+            “The Gatimu School Online Student Portal is under development. Soon, students and administrators will be
+            able to securely access academic records and school services through this platform. Please check back
+            later.”
+        </p>
+    </div>
+
+    <div class="mt-5">
+        <a href="{% url 'home' %}" class="btn btn-outline-primary px-4">Return to Home</a>
+    </div>
+</div>
+{% endblock %}
